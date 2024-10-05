@@ -110,13 +110,13 @@ body{
 }
 
 .sale-image-offer{
-    width:33%;
-    padding: 20px;
+    width:30%;
+    padding: 5px;
     border: solid black 2px;
     background-color: white;
     color: black;
     position:absolute;
-    top: 70px;
+    top:20px;
     left: 40px;
     animation-name: zoom;
     animation-duration: 2s;
@@ -216,6 +216,15 @@ body{
 }
 
 @media screen and (max-width:600px) {
+    .sale-image img {
+         width: 100%;  
+         height:50%; 
+     }
+     .sale-image-offer{
+        width:20%;
+        
+     }
+    
     .course-card{
         flex-basis: 40%;
     }
